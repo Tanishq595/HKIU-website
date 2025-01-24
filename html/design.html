@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Design</title>
+    <link rel="stylesheet" href="../css/design.css" type="text/css" media="all">
+    <link rel="stylesheet" href="../css/general.css" type="text/css" media="all">
+</head>
+
+<body>
+    <header>
+        <img src="../image/logo.png" width="400" height="100" alt="logo">
+        <h1 id="hkintro">Hong Kong Industrial University</h1>
+    </header>
+    <nav>
+        <form>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="apply.html">Apply</a></li>
+                <li><a href="visit.html">Visit</a></li>
+                <li><a href="program.html">Program</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </form>
+    </nav>
+    <div class="content">
+        <p>Welcome to HKIU</p>
+        <div class="design">
+            <h2>Design Page</h2>
+            <h3>Name:Tanishq Agarwal</h3>
+            <h3>SID:58499294</h3>
+            <hr>
+        </div>
+        <div class="usage">
+            <h2>Rules usage and its explanation</h2>
+            <h4>ABOUT PAGE :</h4>
+            <h4>This stylesheet is inserted in external style at line number 8 in about.html</h4>
+            <p>adjusted border radius by 10px at line number 54 in about.css file for the information contained between
+                line 32 to 65 and line 66 to 84 in about.html . </p>
+            <hr>
+            <h4>APPLY PAGE :</h4>
+            <h4>This stylesheet is inserted in external style at line number 8 in apply.html </h4>
+            <p>adjusted top right and top left border radius by 10px at line number 22 and 23 in apply.css file for the
+                course headings. </p>
+            <p>adjusted bottom right and bottom left border radius by 5px at line number 38 and 39 in apply.css for
+                content between line 34 to 127 in apply.html </p>
+            <p>adjusted top right and top left border radius by 10px at line number 50 and 51 in apply.css for content
+                on line 33 in apply.html</p>
+            <p>adjusted border radius by 7px at line number 84 in apply.css for the Application forms at line number 45
+                to 125 in apply.html </p>
+            <p>adjusted top right and top left border radius by 10px at line number 71 and 72 in apply.css for the
+                course headings on line 36 , 39 and 42 in apply.html </p>
+            <p>adjusted border radius by 3px at line number 152 in apply.css for submit and clear button at line 160 and
+                161 in apply.html</p>
+            <hr>
+            <h4>PrintApply PAGE :</h4>
+            <h4>This stylesheet is inserted in external style at line number 9 in apply.html but will work only when the
+                page is in print format</h4>
+            <p>adjusted border radius by 3px at line number 23 in printApply.css for submit and clearn button at line
+                160 and 161 in apply.html. </p>
+            <hr>
+            <h2>JAVASCRIPT USAGE</h2>
+            <h4>Visit Page</h4>
+            <p>Javascript Event Handler (AddEventListener) used at line 6 in visit.js applied to the button for checking
+                the form inputs and performing actions with click method ,i.e. it will work after clicking.</p>
+            <p>HTML Event Handler (.onclick) used at line 88 in visit.html applied to the reset button for resetting the
+                form inputs using onclick method i.e. it will work after clicking.</p>
+            <h4>Program Page</h4>
+            <p>Javascript Event Handler (AddEventListener) used at line 1 in program.js applied to the whole window
+                using load method i.e. it will work once the window is loaded.</p>
+            <p>Javascript Event Handler (AddEventListener) used at line 27 in program.js using ended method to play
+                another video after first video is ended.</p>
+            <h4>Apply Page</h4>
+            <p>Javascript Event Handler (AddEventListener) used at line 12 in apply.js applied to the whole window using
+                load method i.e. it will work once the window is loaded.</p>
+            <p>Javascript Event Handler (onclick event handler) used at line 13 in apply.js applied using onclick method
+                i.e. it will work after clicking.</p>
+            <p>Javascript Event Handler (onclick event handler) used at line 14 in apply.js applied using onclick method
+                i.e. it will work after clicking.</p>
+            <p>Javascript Event Handler (onclick event handler) used at line 15 in apply.js applied using onclick method
+                i.e. it will work after clicking.</p>
+            <p>Javascript Event Handler (AddEventListener) used at line 42 in apply.js applied using mouseover method
+                i.e. it will work when mouse is hovered on it.</p>
+            <p>Javascript Event Handler (AddEventListener) used at line 45 in apply.js applied using mouseout method
+                i.e. it will work after mouse cursor is removed from that portion.</p>
+            <!-- <p>Javascript Event Handler (AddEventListener) used at line 105 in apply.js applied using click method i.e.
+                it will work after clicking.</p> -->
+            <p>Javascript Event Handler (AddEventListener) used at lines 153 , 159 , 165 , 171 , 177 , 183 , 189 , 195 ,
+                201 , 207 , 213 in apply.js using click method i.e. it will work after clicking.</p>
+            <p>Javascript Event Handler (onclick event handler) used at line 217 in apply.js using click method i.e. it will
+                work after clicking.</p>
+            <p>Javascript Event Handler (onclick event handler) used at line 263 in apply.js using onclick method i.e.
+                it will work after clicking.</p>
+            <hr>
+            <h4>Usage of ES6 Features : let</h4>
+            <p>let used in line 120 , 222, 230 in apply.js in the for loop because let is used for a block scope so it
+                will be valid only inside the loop thats why it is used here. </p>
+            <p>let used in line 267 in apply.js for the rows as it is used for a block scope and is of no use outside the function.</p>
+            <p>let used in line 288 and 289 in apply.js for date and time respectively as it is used for the block scope
+                inside the function updateTable as this variable has no use outside the function.</p>
+            <p>let used in line 7 in program.js as it is used for a block scope since it is not required outside the
+                function.</p>
+            <p>let used in line 24 in program.js as it is used for the block scope and can be reassigned within the
+                scope.</p>
+            <h4>Usage of ES6 Features: const</h4>
+            <p>const used in line 2 in program.js for the array as it is used for the block scope as well as there is no
+                need of reassigning the array. Therefore const is used so that array is not changed.</p>
+            <h4>Usage of ES6 Features: set</h4>
+            <p>set used in line 66 and 67 in apply.js to store the chosen ranks and majors as set method will remove duplicates and then it will be effective.</p>
+        </div>
+    </div>
+    <footer>
+        <img src="../image/footer_logo.png" height="100" width="300" alt="footer">
+        <p>&copy; CityU 2023 sources of images and text from Wikipedia and Courtesy of Icon pack by Icons8 -- designed
+            by <a href="design.html">Tanishq</a></p>
+    </footer>
+</body>
+
+</html>
