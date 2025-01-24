@@ -1,0 +1,56 @@
+#normal {
+  max-width: 100%;
+  display: block;
+}
+
+.welcome {
+  margin: 0 10%;
+  width: calc(80% - 10px);
+  padding: 5px;
+  overflow: auto;
+}
+
+caption {
+  text-decoration: double;
+  text-align: center;
+  background-color: rgb(253, 190, 190);
+  margin: 10px 0%;
+  width: 100%;
+  font-size: larger;
+  font-weight: bolder;
+}
+
+table,
+thead,
+tbody,
+th,
+td {
+  border: 2px solid black;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+thead {
+  background-color: rgb(255, 248, 237);
+}
+
+table {
+  margin: 0 10%;
+  width: 80%
+}
+
+table>tbody>tr>:nth-child(even):hover {
+  background-color: rgb(174, 174, 174);
+}
+
+table>tbody>tr>:nth-child(odd):hover {
+  background-color: rgb(212, 212, 212);
+}
+.info_one , .info_two{
+  border: 2px solid black;
+  width: 45%;
+  float: left;
+  padding: 5px;
+  border-radius: 10px;
+  margin: 20px;
+}

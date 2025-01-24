@@ -1,0 +1,33 @@
+.Welcome {
+  background-color: rgb(255, 206, 206);
+  text-align: center;
+  padding: 10px;
+  margin-bottom: 40px;
+}
+
+
+#hkintro {
+  color: rgb(73, 44, 44);
+  font-weight: bold;
+  font-family: monospace;
+}
+
+.add,
+.map {
+  display: inline-block;
+  padding: 1%;
+  overflow: hidden;
+}
+
+.add {
+  width: 50%;
+}
+
+.map {
+  width: 45%;
+}
+
+.information {
+  float: left;
+  background-color: white;
+}

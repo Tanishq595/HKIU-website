@@ -1,0 +1,48 @@
+header {
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+    height: 150px;
+}
+
+nav,
+#wel,
+.apply-container {
+    display: none;
+}
+
+#hkintro {
+    color: grey;
+}
+
+#submit,
+#clear {
+    border: 1px solid black;
+    padding: 5px;
+    display: inline-block;
+    border-radius: 3px;
+}
+
+.foot {
+    text-align: center;
+}
+
+table {
+    width: 90%;
+
+}
+
+table,
+th,
+td {
+    border: 1px solid grey;
+    border-collapse: collapse;
+    padding: 5px;
+}
+
+
+
+a {
+    text-decoration: none;
+    color: black;
+}

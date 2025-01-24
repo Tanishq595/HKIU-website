@@ -1,0 +1,165 @@
+a {
+    text-decoration: none;
+}
+
+#wel {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.clgeng,
+.clgsci,
+.clgis {
+    float: left;
+    text-align: center;
+    border: 1px solid black;
+    border-top: 0.5px solid black;
+    border-right: 0.5px solid black;
+    border-left: 0.5px solid rgb(13, 7, 7);
+    width: 100%;
+    background-color: grey;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.apply-container {
+    width: 100%;
+    float: left;
+}
+
+.apply-items {
+    width: 98.5%;
+    float: left;
+    border-left: 1px solid rgb(76, 69, 69);
+    border-right: 1px solid rgb(76, 69, 69);
+    border-bottom: 1px solid rgb(76, 69, 69);
+    margin-left: 10px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+#apply-title {
+    width: 98%;
+    font-size: 1em;
+    font-weight: bold;
+    font-family: sans-serif;
+    border-top: 1px solid rgb(76, 69, 69);
+    border-left: 1px solid rgb(76, 69, 69);
+    border-right: 1px solid rgb(76, 69, 69);
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    padding-left: 0.5%;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+/* to deisgn the form headings */
+.majors>h3 {
+    margin: 15px;
+}
+
+.heading {
+    float: left;
+
+
+    width: 32%;
+    /* background-color: rgb(243, 201, 228); */
+    font-weight: bold;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    text-align: center;
+    border-top: 0.5px solid black;
+    border-right: 0.5px solid black;
+    border-left: 0.5px solid rgb(13, 7, 7);
+
+}
+
+.Engineering>form,
+.Science>form,
+.Interdisciplinary>form {
+    border: 1px solid black;
+    border-radius: 7px;
+    float: left;
+    padding: 2px;
+    margin: 1px;
+    width: 32%;
+    background-color: rgb(242, 234, 249);
+}
+
+/* .Engineering>form:hover,
+.Science>form:hover,
+.Interdisciplinary>form:hover {
+    background-color: rgb(255, 245, 245);
+} */
+
+.Engineering,
+.Science,
+.Interdisciplinary {
+    margin: 0;
+    padding: 0;
+    display: none;
+}
+
+/* #clgeng:hover~.Engineering,
+.Engineering:hover,
+#clgsc:hover~.Science,
+.Science:hover,
+#clgis:hover~.Interdisciplinary,
+.Interdisciplinary:hover {
+    display: block;
+} */
+
+/* 
+.Engineering:hover~.heading,
+.Engineering:hover~.clgeng {
+    background-color: white;
+} */
+
+
+
+table,
+th,
+td {
+    border: 1px solid grey;
+    border-collapse: collapse;
+}
+
+.majors {
+    margin: 2%;
+}
+
+table {
+    width: 90%;
+
+}
+
+thead {
+    background-color: rgb(253, 190, 190);
+}
+
+tbody>tr:nth-child(odd) {
+    background-color: lightgray;
+}
+
+#submit,
+#clear {
+    border: 1px solid black;
+    padding: 5px;
+    display: inline-block;
+    border-radius: 3px;
+    color: black;
+}
+
+tbody>tr:nth-child(odd):hover {
+    background-color: rgb(253, 216, 216);
+}
+
+tbody>tr:nth-child(even):hover {
+    background-color: rgb(244, 216, 235);
+}
+form>img , form>p{
+    padding-left:4px;
+}

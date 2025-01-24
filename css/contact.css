@@ -1,0 +1,17 @@
+thead {
+    background-color: rgb(253, 219, 172);
+}
+
+table {
+    border: 1px solid white;
+    border-collapse: collapse;
+    text-align: center;
+    margin: 0 10%;
+    width: 80%;
+}
+
+nav+p {
+    font-size: xx-large;
+    font-weight: bold;
+    text-align: center;
+}

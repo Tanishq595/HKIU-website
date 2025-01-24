@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+}
+
+header {
+    text-align: center;
+    background-color: rgb(249, 191, 214);
+    margin: 0px;
+    padding: 0px;
+    height: 160px;
+}
+
+ul {
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(67, 66, 66);
+
+}
+
+li>a:visited {
+    color: rgb(240, 189, 215);
+}
+
+li>a:link {
+    color: white;
+}
+
+li>a:hover {
+    color: rgb(249, 70, 183);
+}
+
+li>a:active {
+    color: blueviolet;
+}
+
+footer {
+    background-color: rgb(249, 191, 214);
+    text-align: center;
+    margin: 0;
+    padding: 1%;
+
+}
+
+li {
+    display: inline-block;
+    padding: 20px;
+    margin: 0;
+}
+
+li>a {
+    color: white;
+    text-decoration: none;
+
+}
+
+#hkintro {
+    color: rgb(73, 44, 44);
+    font-weight: bold;
+    font-family: monospace;
+  }

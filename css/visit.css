@@ -1,0 +1,63 @@
+
+.Welcome {
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 40px;
+}
+
+
+legend,
+#date,
+#time {
+    text-align: left;
+}
+
+.booking {
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 30px;
+    width: 60%;
+    clear: both;
+}
+
+#HK {
+    clear: both;
+}
+
+.info+h3 {
+    text-align: center;
+}
+
+legend {
+    font-weight: bold;
+}
+
+
+.info {
+    width: 100%;
+
+}
+
+.locimage {
+    float: left;
+    width: 45%;
+    margin-right: 1%;
+    margin-left: 20px;
+}
+
+.lok {
+    float: right;
+    width: 40%;
+    margin-left: 70px;
+    margin-right: 20px;
+}
+
+.clear {
+    clear: both;
+}
+
+#lc {
+    width: 600px;
+    height: 600px;
+    margin-left: 50px;
+}

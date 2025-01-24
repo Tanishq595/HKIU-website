@@ -1,0 +1,60 @@
+.navigationbar+p {
+    font-size: xx-large;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+#promotionInfoBlock {
+    float: left;
+    width: 45%;
+    margin-left: 20px;
+    font-size: 25px;
+    text-align: center;
+    font-weight: bolder;
+}
+#video1{
+    display: none;
+}
+.one>video,
+.two>video {
+    float: right;
+    width: 40%;
+    margin-right: 30px;
+
+}
+
+.one,
+.two {
+    width: 100%;
+    clear: both;
+    float: left;
+    margin-bottom: 30px;
+}
+
+video {
+    width: 600px;
+}
+
+table,
+th,
+td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+table {
+    width: 90%;
+    margin: 40px 80px;
+    text-align: center;
+}
+
+thead {
+    background-color: black;
+    color: white;
+}
+
+th,
+td {
+    text-align: center;
+}

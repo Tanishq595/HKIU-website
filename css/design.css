@@ -1,0 +1,15 @@
+.content>p {
+  background-color: rgb(253, 219, 172);
+  text-align: center;
+  color: black;
+  font-size: large;
+  font-weight: bold;
+  padding: 5px;
+}
+
+.design {
+  margin-left: 10px;
+}
+.usage{
+  margin: 10px;
+}
